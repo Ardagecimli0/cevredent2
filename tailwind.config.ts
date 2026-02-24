@@ -104,8 +104,8 @@ export default {
         "scroll-left": "scroll-left 30s linear infinite",
       },
       boxShadow: {
-        "dental": "0 10px 30px -10px hsl(145 63% 42% / 0.4)",
-        "dental-lg": "0 20px 40px -15px hsl(145 63% 42% / 0.3)",
+        "dental": "0 10px 30px -10px hsl(200 85% 45% / 0.4)",
+        "dental-lg": "0 20px 40px -15px hsl(200 85% 45% / 0.3)",
       },
     },
   },
