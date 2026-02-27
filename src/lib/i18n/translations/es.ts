@@ -76,6 +76,30 @@ export const es = {
       items: ['Puentes Dentales', 'Empastes de Porcelana', 'Empastes de Composite', 'Ataches de Precisión'],
     },
     getMoreInfo: 'Más Información',
+    packages: {
+      title: 'Paquetes Todo en Uno',
+      desc: 'Descubra la gama completa de servicios dentales de CevreDent, incluyendo restauraciones, procedimientos y soluciones diseñadas para adaptarse a todos sus requisitos dentales.',
+    },
+    consultation: {
+      title: 'Programe una Consulta',
+      desc: 'Póngase en contacto con nosotros hoy mismo para explorar las opciones de tratamiento personalizadas para ayudarle a lograr una sonrisa vibrante y deslumbrante que irradie salud y belleza.',
+    },
+    transfer: {
+      title: 'Traslado al Aeropuerto',
+      desc: '¿Llegada a Estambul? Deje la logística en nuestras manos. Nuestro equipo dedicado se encargará de su recogida en el aeropuerto y sus necesidades de transporte local, ofreciendo una flota de lujosas furgonetas para su comodidad.',
+    },
+    accommodation: {
+      title: 'Alojamiento',
+      desc: 'Experimente la exclusividad en nuestros hoteles céntricos en Estambul y nuestros establecimientos asociados de primera clase. Descubra oportunidades inigualables para una estancia memorable.',
+    },
+    tourism: {
+      title: 'Tour Turístico',
+      desc: 'Descubra la cautivadora belleza de Turquía, un destino verdaderamente notable. Maximice su experiencia con nuestros tours guiados y servicios de traducción, sumergiéndose en momentos inolvidables.',
+    },
+    aftercare: {
+      title: 'Cuidados Post-Operatorios',
+      desc: 'Preservar los resultados a largo plazo de su procedimiento es nuestra prioridad. Benefíciese de nuestro cuidado y apoyo post-operatorio, permitiéndole establecer hábitos saludables duraderos.',
+    },
   },
   beforeAfter: {
     title: 'Antes y Después',
@@ -191,4 +215,5 @@ export const es = {
     description: 'Hemos recibido su solicitud. Nos pondremos en contacto pronto.',
     contactUs: '¡Contáctenos ahora!',
   },
+  whatsappMsg: 'Hola, estoy interesado en el tratamiento dental. ¿Podría proporcionarme información sobre las opciones y precios?',
 };

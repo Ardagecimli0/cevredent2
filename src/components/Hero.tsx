@@ -55,7 +55,7 @@ const Hero = () => {
           </p>
 
           <motion.a
-            href="https://api.whatsapp.com/send?phone=905518622525&text=What%20are%20the%20options%20and%20pricing%20for%20dental%20treatment"
+            href={`https://api.whatsapp.com/send?phone=905518622525&text=${encodeURIComponent(t('whatsappMsg'))}`}
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="inline-flex items-center gap-2 px-5 py-3 md:px-8 md:py-4 bg-primary text-primary-foreground text-sm md:text-base font-semibold rounded-lg shadow-dental hover:shadow-dental-lg transition-all duration-300 w-full md:w-auto justify-center max-w-xs md:max-w-none"

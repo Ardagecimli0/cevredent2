@@ -22,7 +22,7 @@ import ba8 from '@/assets/bfafter/8.png';
 
 const BeforeAfter = () => {
   const { t } = useTranslation();
-  const [api, setApi] = useState<CarouselApi>();
+  const [api, setApi] = useState < CarouselApi > ();
   const [current, setCurrent] = useState(0);
   const [count, setCount] = useState(0);
 
@@ -112,7 +112,7 @@ const BeforeAfter = () => {
             className="bg-dental-navy hover:bg-dental-navy/90 text-white"
           >
             <a
-              href="https://api.whatsapp.com/send?phone=905518622525&text=What%20are%20the%20options%20and%20pricing%20for%20dental%20treatment"
+              href={`https://api.whatsapp.com/send?phone=905518622525&text=${encodeURIComponent(t('whatsappMsg'))}`}
             >
               {t('beforeAfter.cta')}
             </a>

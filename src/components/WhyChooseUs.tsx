@@ -92,7 +92,8 @@ const WhyChooseUs = () => {
         it: 'Italian'
       };
 
-      const currentLang = languageMap[i18n.language] || 'English';
+      const pathLang = window.location.pathname.split('/')[1];
+      const currentLang = languageMap[pathLang] || languageMap[i18n.language.split('-')[0]] || 'English';
 
       const payload = {
         name: formData.name,

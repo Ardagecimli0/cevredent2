@@ -76,6 +76,30 @@ export const de = {
       items: ['Zahnbrücken', 'Porzellanfüllungen', 'Kompositfüllungen', 'Präzisionsverankerungen'],
     },
     getMoreInfo: 'Mehr Informationen',
+    packages: {
+      title: 'Alles-in-Einem Pakete',
+      desc: "Entdecken Sie die komplette Palette der CevreDent Zahndienstleistungen, einschließlich Restaurationen, Verfahren und Lösungen, die auf alle Ihre dentalen Anforderungen zugeschnitten sind.",
+    },
+    consultation: {
+      title: 'Beratung Vereinbaren',
+      desc: 'Kontaktieren Sie uns heute, um die auf Sie zugeschnittenen Behandlungsoptionen zu erkunden und ein strahlendes Lächeln zu erhalten, das sowohl Gesundheit als auch Schönheit ausstrahlt.',
+    },
+    transfer: {
+      title: 'Flughafentransfer',
+      desc: 'Ankunft in Istanbul? Überlassen Sie uns die Logistik. Unser engagiertes Team kümmert sich um Ihren Abholservice vom Flughafen und Ihre lokalen Transportbedürfnisse mit einer Flotte luxuriöser Minivans für Ihren Komfort.',
+    },
+    accommodation: {
+      title: 'Unterkunft',
+      desc: 'Erleben Sie Exklusivität in unseren zentral gelegenen Hotels in Istanbul und unseren erstklassigen Partnerbetrieben. Entdecken Sie unvergleichliche Möglichkeiten für einen unvergesslichen Aufenthalt.',
+    },
+    tourism: {
+      title: 'Sightseeing-Tour',
+      desc: 'Entdecken Sie die faszinierende Schönheit der Türkei, ein wirklich bemerkenswertes Reiseziel. Maximieren Sie Ihr Erlebnis mit unseren geführten Touren und Übersetzungsdiensten und tauchen Sie in unvergessliche Momente ein.',
+    },
+    aftercare: {
+      title: 'Post-Op Pflege',
+      desc: 'Die Erhaltung der langfristigen Ergebnisse Ihres Eingriffs ist unsere Priorität. Profitieren Sie von unserer postoperativen Betreuung und Unterstützung, die es Ihnen ermöglicht, dauerhaft gesunde Gewohnheiten zu etablieren.',
+    },
   },
   beforeAfter: {
     title: 'Vorher & Nachher',
@@ -83,7 +107,7 @@ export const de = {
     cta: 'Die beste Zahnbehandlung erhalten',
   },
   packages: {
-    title: 'CevreDent Service Details',
+    title: 'CevreDent Service-Details Inhalt',
     items: [
       {
         title: 'Alles-in-Einem Pakete',
@@ -191,4 +215,5 @@ export const de = {
     description: 'Ihre Anfrage wurde empfangen. Wir werden uns bald bei Ihnen melden.',
     contactUs: 'Jetzt Kontakt aufnehmen!',
   },
+  whatsappMsg: 'Was sind die Optionen und Preise für eine Zahnbehandlung?',
 };

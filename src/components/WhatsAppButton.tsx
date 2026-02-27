@@ -1,10 +1,13 @@
-import { MessageCircle } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 
 const WhatsAppButton = () => {
+  const { t } = useTranslation();
+  const whatsappUrl = `https://api.whatsapp.com/send?phone=905518622525&text=${encodeURIComponent(t('whatsappMsg'))}`;
+
   return (
     <motion.a
-      href="https://api.whatsapp.com/send?phone=905518622525&text=What%20are%20the%20options%20and%20pricing%20for%20dental%20treatment"
+      href={whatsappUrl}
       initial={{ scale: 0 }}
       animate={{ scale: 1 }}
       transition={{ delay: 1, type: 'spring' }}

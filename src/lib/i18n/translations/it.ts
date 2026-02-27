@@ -76,6 +76,30 @@ export const it = {
       items: ['Ponti Dentali', 'Otturazioni in Porcellana', 'Otturazioni in Composito', 'Attacchi di Precisione'],
     },
     getMoreInfo: 'Maggiori Informazioni',
+    packages: {
+      title: 'Pacchetti Tutto in Uno',
+      desc: 'Scopri la gamma completa dei servizi dentali CevreDent, inclusi restauri, procedure e soluzioni progettate per soddisfare tutte le tue esigenze dentali.',
+    },
+    consultation: {
+      title: 'Prenota una Consulenza',
+      desc: 'Contattaci oggi per esplorare le opzioni di trattamento su misura per aiutarti a ottenere un sorriso vibrante e splendido che emani salute e bellezza.',
+    },
+    transfer: {
+      title: 'Trasferimento Aeroporto',
+      desc: 'Arrivo a Istanbul? Lascia a noi la logistica. Il nostro team dedicato si occuperà del tuo prelievo in aeroporto e delle tue necessità di trasporto locale, offrendo una flotta di lussuosi minivan per il tuo comfort.',
+    },
+    accommodation: {
+      title: 'Alloggio',
+      desc: 'Vivi l\'esclusività nei nostri hotel in posizione centrale a Istanbul e nelle nostre strutture partner di prima classe. Scopri opportunità impareggiabili per un soggiorno memorabile.',
+    },
+    tourism: {
+      title: 'Tour Turistico',
+      desc: 'Scopri la bellezza affascinante della Turchia, una destinazione davvero straordinaria. Massimizza la tua esperienza con i nostri tour guidati e i servizi di traduzione, immergendoti in momenti indimenticabili.',
+    },
+    aftercare: {
+      title: 'Cure Post-Operatorie',
+      desc: 'Preservare i risultati a lungo termine della tua procedura è la nostra priorità. Beneficia della nostra cura e del nostro supporto post-operatorio, permettendoti di stabilire abitudini salutari durature.',
+    },
   },
   beforeAfter: {
     title: 'Prima e Dopo',
@@ -83,7 +107,7 @@ export const it = {
     cta: 'Ottieni il Miglior Trattamento Dentale',
   },
   packages: {
-    title: 'Dettagli dei Servizi CevreDent',
+    title: 'Contenuto dei Dettagli del Servizio CevreDent',
     items: [
       {
         title: 'Pacchetti Tutto in Uno',
@@ -191,4 +215,5 @@ export const it = {
     description: 'La tua richiesta è stata ricevuta. Ti contatteremo a breve.',
     contactUs: 'Contattaci ora!',
   },
+  whatsappMsg: 'Buongiorno, sono interessato a un trattamento dentale. Potreste fornirmi informazioni sulle opzioni e sui prezzi?',
 };

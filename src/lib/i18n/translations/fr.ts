@@ -76,6 +76,30 @@ export const fr = {
       items: ['Bridges Dentaires', 'Obturations Porcelaine', 'Obturations Composites', 'Attachements de Précision'],
     },
     getMoreInfo: 'Plus d\'Informations',
+    packages: {
+      title: 'Forfaits Tout-en-Un',
+      desc: "Découvrez la gamme complète de services dentaires de CevreDent, y compris les restaurations, les procédures et les solutions conçues pour répondre à toutes vos exigences dentaires.",
+    },
+    consultation: {
+      title: 'Planifier une Consultation',
+      desc: "Contactez-nous dès aujourd'hui pour explorer les options de traitement personnalisées pour vous aider à obtenir un sourire éclatant qui rayonne de santé et de beauté.",
+    },
+    transfer: {
+      title: 'Transfert Aéroport',
+      desc: "Vous arrivez à Istanbul ? Laissez-nous la logistique. Notre équipe dédiée s'occupera de votre accueil à l'aéroport et de vos besoins de transport local, en proposant une flotte de minivans luxueux pour votre confort.",
+    },
+    accommodation: {
+      title: 'Hébergement',
+      desc: "Vivez l'exclusivité dans nos hôtels idéalement situés à Istanbul et nos établissements partenaires de première classe. Découvrez des opportunités inégalées pour un séjour mémorable.",
+    },
+    tourism: {
+      title: 'Visite Touristique',
+      desc: "Découvrez la beauté captivante de la Turquie, une destination vraiment remarquable. Maximiez votre expérience avec nos visites guidées et nos services de traduction, en vous immergeant dans des moments inoubliables.",
+    },
+    aftercare: {
+      title: 'Soins Post-Opératoires',
+      desc: "Préserver les résultats à long terme de votre intervention est notre priorité. Bénéficiez de nos soins et de notre soutien post-opératoires, vous permettant d'établir des habitudes saines et durables.",
+    },
   },
   beforeAfter: {
     title: 'Avant & Après',
@@ -83,7 +107,7 @@ export const fr = {
     cta: 'Obtenez le Meilleur Traitement Dentaire',
   },
   packages: {
-    title: 'Détails des Services CevreDent',
+    title: 'Contenu des Détails des Services CevreDent',
     items: [
       {
         title: 'Forfaits Tout-en-Un',
@@ -191,4 +215,5 @@ export const fr = {
     description: 'Votre demande a bien été reçue. Nous vous contacterons bientôt.',
     contactUs: 'Contactez-nous maintenant !',
   },
+  whatsappMsg: 'Bonjour, je suis intéressé par des soins dentaires. Pourriez-vous me donner des informations sur les options et les tarifs ?',
 };

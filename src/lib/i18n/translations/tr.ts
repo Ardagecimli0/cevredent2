@@ -215,4 +215,5 @@ export const tr = {
     description: 'Başvurunuz alınmıştır. En kısa sürede sizinle iletişime geçeceğiz.',
     contactUs: 'Hemen Bize Ulaşın!',
   },
+  whatsappMsg: 'Diş tedavisi seçenekleri ve fiyatlandırma hakkında bilgi alabilir miyim?',
 };

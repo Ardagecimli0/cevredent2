@@ -215,4 +215,5 @@ export const en = {
     description: 'Your submission has been received. We will be in touch shortly.',
     contactUs: 'Contact Us Now!',
   },
+  whatsappMsg: 'What are the options and pricing for dental treatment',
 };
